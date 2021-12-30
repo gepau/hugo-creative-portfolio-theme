@@ -20,6 +20,7 @@
         {{ with .Site.Params.copyright }}
           {{ . | safeHTML }} |
         {{ end }}
+         <a href="{{ "imprint" | absURL }}">Impressum</a> |
         {{ partial "attribution.html" . }}
       </p>
     </div>
